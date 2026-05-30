@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Avis Taxi G7</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <div class="container">
+    <h1>🚖 Taxi G7</h1>
+    <p>Votre avis compte pour nous</p>
+
+    <form id="reviewForm">
+      <input type="text" id="name" placeholder="Votre nom">
+
+      <div class="stars">
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">★</label>
+
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">★</label>
+
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">★</label>
+
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">★</label>
+
+        <input type="radio" id="star1" name="rating" value="1">
+        <label for="star1">★</label>
+      </div>
+
+      <textarea id="comment" placeholder="Votre commentaire..."></textarea>
+
+      <button type="submit">Envoyer l'avis</button>
+    </form>
+
+    <div id="successMessage">✅ Merci pour votre avis !</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
