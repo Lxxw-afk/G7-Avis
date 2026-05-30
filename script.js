@@ -1,4 +1,4 @@
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1510214205213773965/rUCGMv0kRW4vHkxL3Wz2Cmx2UXfIMb6OI0uGyWw51g7pLHattu7b3nVoIVc3ZT6L-QK";
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1510214205213773965/rUCGMv0kRW4vHkxL3Wz2Cmx2UXfIMb6OI0uGyWw51g7pLHattu7b3nVoIVc3ZT6L-QKR";
 
 const form = document.getElementById("reviewForm");
 const successMessage = document.getElementById("successMessage");
